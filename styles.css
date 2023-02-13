@@ -1,0 +1,25 @@
+body {
+    font-family: "Roboto",sans-serif;
+}
+.logo {
+ padding: 28px, 28px, 28px;
+}
+nav {
+    float: right;
+}
+ul {
+    color: white;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    display: inline;
+    color: white;
+}
+.hat {
+    background-color: #007765;
+    background-size: cover;
+}
