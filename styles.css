@@ -1,25 +1,72 @@
 body {
-    font-family: "Roboto",sans-serif;
+    font-family: Roboto ,sans-serif;
 }
-.logo {
- padding: 28px, 28px, 28px;
+.headers {
+    text-align: center;
+    font-size: 45px;
+    color: #007765
 }
-nav {
-    float: right;
-}
-ul {
-    color: white;
-    list-style: none;
-}
-a {
-    text-decoration: none;
-    color: white;
-}
-li {
-    display: inline;
-    color: white;
-}
-.hat {
-    background-color: #007765;
+.hero_is_here {
+    background-image: url(images/is_here.png);
     background-size: cover;
+    background-position: center center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.container {
+    max-width: 900px;
+    padding-right: 55px;
+    padding-left: 55px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.is_here_message {
+    color: white;
+    font-size: 65px;
+    text-align: center;
+}
+.problem {
+    padding-top: 5px;
+    background-color: #EEEEEE;
+    padding-bottom: 30px;
+}
+.problem_text {
+    margin-top: 5px;
+    font-size: 25px;
+    box-sizing: border-box;
+    max-width: 1110px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: auto;
+}
+.world_web {
+    background-image: url(images/web.png);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.web_text {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+.coin_text img {
+    height: 75px;
+    width: 75px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.coin_text {
+    margin-top: 5px;
+    font-size: 25px;
+    box-sizing: border-box;
+    max-width: 1110px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: auto;
 }
