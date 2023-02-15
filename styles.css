@@ -12,8 +12,8 @@ body {
     background-image: url(images/is_here.png);
     background-size: cover;
     background-position: center center;
-    padding-top: 128px;
-    padding-bottom: 128px;
+    padding-top: 125px;
+    padding-bottom: 125px;
 }
 .container {
     max-width: 1219px;
@@ -105,4 +105,40 @@ table {
     padding-top: 55px;
     padding-bottom: 55px;
     font-size: 15px;
+}
+.hat {
+    width: 100%;
+    background-color: #007765;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 21; 
+}
+.logo img {
+    margin-top: 13px;
+}
+ul {
+    margin-top: 24px;
+    float: right;
+    list-style: none;
+}
+li {
+    font-size: 20px;
+    display: inline;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: orange;
+}
+.container_hat {
+    width: 1219px;
+    padding-right: 55px;
+    padding-left: 55px;
+    box-sizing: border-box;
+    margin: auto;
 }
