@@ -82,14 +82,13 @@ body {
 figcaption {
     text-align: center;
 }
-table {
-    text-align: center;
-    margin: auto;
-}
 .persons {
-    text-align: center;
-    padding-left: 55px;
-    padding-right: 55px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+
 }
 .post {
     margin-top: -10px;
